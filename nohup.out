@@ -1,0 +1,153 @@
+
+> arqui@0.0.0 start:dev
+> nodemon
+
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: ts,html[39m
+[32m[nodemon] starting `./node_modules/.bin/ts-node -r tsconfig-paths/register ./src`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:675:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+[32m[2022-08-24T01:11:25.485Z] INFO: Express server started on port: 3000[39m
+Connected
+Subscribe to topic 'global-emergencies'
+Received Message: global-emergencies {"type":"info","lat":-76.00546365793447,"lon":48.18172408257524,"location":"Canada","message":"Nothing bad to report","level":5}
+Received Message: global-emergencies {"type":"alert","lat":-70.59708397196718,"lon":-33.45505029128685,"location":"Metro chile-españa","message":"Critical lack of starbucks drinks","level":50}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-70.61539413106406,"lon":-18.099098693847655,"location":"PUC, CSJ","message":"Orc attack, with trebuchets and molotovs","level":100}
+Received Message: global-emergencies {"type":"alert","lat":139.60073581691344,"lon":35.75289429950404,"location":"Tokyo city","message":"Lvl 53 Kaiju invasion in progress","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-1.1553317290770795,"lon":52.93582804343926,"location":"Nottingham","message":"Faerie fires detected, and agressive gnomes are on the move","level":80}
+Received Message: global-emergencies {"type":"alert","lat":-70.59708397196718,"lon":-33.45505029128685,"location":"Metro chile-españa","message":"Critical lack of starbucks drinks","level":50}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-70.59708397196718,"lon":-33.45505029128685,"location":"Metro chile-españa","message":"Critical lack of starbucks drinks","level":50}
+Received Message: global-emergencies {"type":"info","lat":-76.00546365793447,"lon":48.18172408257524,"location":"Canada","message":"Nothing bad to report","level":5}
+
+> arqui@0.0.0 start
+> node -r module-alias/register ./dist --env=production
+
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jpobletel/arqui/dist'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._resolveFilename (/home/jpobletel/arqui/node_modules/module-alias/index.js:49:29)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+> arqui@0.0.0 start
+> node -r module-alias/register ./dist --env=production
+
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jpobletel/arqui/dist'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._resolveFilename (/home/jpobletel/arqui/node_modules/module-alias/index.js:49:29)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+> arqui@0.0.0 start
+> node -r module-alias/register ./dist --env=production
+
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jpobletel/arqui/dist'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._resolveFilename (/home/jpobletel/arqui/node_modules/module-alias/index.js:49:29)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+[0mGET / [36m304[0m 6.779 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.727 ms - -[0m
+[0mGET /scripts/index.js [32m200[0m 3.761 ms - 799[0m
+[0mGET /favicon.ico [36m304[0m 0.734 ms - -[0m
+Received Message: global-emergencies {"type":"alert","lat":104.15478844869311,"lon":45.7385367285208,"location":"Mongolia","message":"Genghis Khan resurrection imminent","level":100}
+Received Message: global-emergencies {"type":"alert","lat":104.15478844869311,"lon":45.7385367285208,"location":"Mongolia","message":"Genghis Khan resurrection imminent","level":100}
+Received Message: global-emergencies {"type":"alert","lat":11.593500276876847,"lon":48.144263188351324,"location":"Munich","message":"Beer tsunami in progress, everyone is in danger. Driving is not advised","level":150}
+
+> arqui@0.0.0 start
+> node -r module-alias/register ./dist --env=production
+
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jpobletel/arqui/dist'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._resolveFilename (/home/jpobletel/arqui/node_modules/module-alias/index.js:49:29)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Received Message: global-emergencies {"type":"alert","lat":-1.1553317290770795,"lon":52.93582804343926,"location":"Nottingham","message":"Faerie fires detected, and agressive gnomes are on the move","level":80}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":104.15478844869311,"lon":45.7385367285208,"location":"Mongolia","message":"Genghis Khan resurrection imminent","level":100}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-70.59708397196718,"lon":-33.45505029128685,"location":"Metro chile-españa","message":"Critical lack of starbucks drinks","level":50}
+Received Message: global-emergencies {"type":"alert","lat":11.593500276876847,"lon":48.144263188351324,"location":"Munich","message":"Beer tsunami in progress, everyone is in danger. Driving is not advised","level":150}
+Received Message: global-emergencies {"type":"alert","lat":-70.61539413106406,"lon":-18.099098693847655,"location":"PUC, CSJ","message":"Orc attack, with trebuchets and molotovs","level":100}
+Received Message: global-emergencies {"type":"alert","lat":10,"lon":10,"location":"Secret SCP site","message":"Sighting of SCP-049, active and on the prowl","level":850}
+Received Message: global-emergencies {"type":"info","lat":-76.00546365793447,"lon":48.18172408257524,"location":"Canada","message":"Nothing bad to report","level":5}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":139.60073581691344,"lon":35.75289429950404,"location":"Tokyo city","message":"Lvl 53 Kaiju invasion in progress","level":200}
+Received Message: global-emergencies {"type":"alert","lat":139.60073581691344,"lon":35.75289429950404,"location":"Tokyo city","message":"Lvl 53 Kaiju invasion in progress","level":200}
+Received Message: global-emergencies {"type":"alert","lat":10,"lon":10,"location":"Secret SCP site","message":"Sighting of SCP-049, active and on the prowl","level":850}
+Received Message: global-emergencies {"type":"alert","lat":-70.59708397196718,"lon":-33.45505029128685,"location":"Metro chile-españa","message":"Critical lack of starbucks drinks","level":50}
+Received Message: global-emergencies {"type":"alert","lat":10,"lon":10,"location":"Secret SCP site","message":"Sighting of SCP-049, active and on the prowl","level":850}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-70.62898713522151,"lon":-33.42274319502189,"location":"Cerro san cristóbal","message":"Agressive treile invasion in progress","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":10,"lon":10,"location":"Secret SCP site","message":"Sighting of SCP-049, active and on the prowl","level":850}
+Received Message: global-emergencies {"type":"alert","lat":139.60073581691344,"lon":35.75289429950404,"location":"Tokyo city","message":"Lvl 53 Kaiju invasion in progress","level":200}
+Received Message: global-emergencies {"type":"alert","lat":104.15478844869311,"lon":45.7385367285208,"location":"Mongolia","message":"Genghis Khan resurrection imminent","level":100}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":11.351666369445441,"lon":44.51713442284345,"location":"Italy","message":"A Pineapple detected on one pizza. The whole pizza is on fire and this triggered an enormous riot","level":500}
+Received Message: global-emergencies {"type":"alert","lat":30.326225064810984,"lon":59.88736370689947,"location":"San petersburgo","message":"Lack of vodka supplies in the area triggers imminent drought","level":30}
+Received Message: global-emergencies {"type":"alert","lat":11.593500276876847,"lon":48.144263188351324,"location":"Munich","message":"Beer tsunami in progress, everyone is in danger. Driving is not advised","level":150}
+Received Message: global-emergencies {"type":"alert","lat":30.326225064810984,"lon":59.88736370689947,"location":"San petersburgo","message":"Lack of vodka supplies in the area triggers imminent drought","level":30}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"info","lat":-70.62980232740348,"lon":-33.455464109229844,"location":"Irarrazaval","message":"Spaceship landing causes traffic jam","level":200}
+Received Message: global-emergencies {"type":"alert","lat":-70.61539413106406,"lon":-18.099098693847655,"location":"PUC, CSJ","message":"Orc attack, with trebuchets and molotovs","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-70.61539413106406,"lon":-18.099098693847655,"location":"PUC, CSJ","message":"Orc attack, with trebuchets and molotovs","level":100}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":-72.90763797925051,"lon":-40.590332899837506,"location":"Osorno","message":"Landslide in progress caused by rogue chilote sorcerer","level":500}
+Received Message: global-emergencies {"type":"alert","lat":-1.1553317290770795,"lon":52.93582804343926,"location":"Nottingham","message":"Faerie fires detected, and agressive gnomes are on the move","level":80}
+Received Message: global-emergencies {"type":"info","lat":-76.00546365793447,"lon":48.18172408257524,"location":"Canada","message":"Nothing bad to report","level":5}
